@@ -1,21 +1,51 @@
-header {
-  background-color: grey;
+/*
+Green: Jade: #2EBF00
+          Olive: #3E8F24
+          Dark Jade #1E7C00
+          Light: #60DF38
+          Lightest: #82DF64
+Yellow: Mustard: #E19000
+        PouPon: #A87B2A
+        Brown: #925E00
+        Light: #F0B03C
+        Lightest: #F0C16C
+Purple: Plum: #540A97
+        Grape: #4C2272
+        Deep: #350362
+        Light: #873DCB
+        Lightest: #9963CB
+*/
+
+
+//header {
+//  background-color: #2ebf00;
+//  color: white;
+//  border-top: 5px solid #1E7C00;
+//  border-bottom: 3px solid #82DF64;
+//}
+//
+//footer {
+//  background-color: #350362;
+//  margin-top: 60%;
+//}
+//
+//body {
+//  background-color: white;
+//  opacity: 90%;
+//  margin-top: 40px;
+//}
+table {
+  width: 100%;
+}
+
+td {
+  width: 33%;
+  height: 200px;
+  margin: 10px 10px 10px 10px;
+  margin-right: 0px;
+  background-color: #E19000;
+  border: solid 5px;
+  border-color: #220564;
   color: white;
-};
-
-.site-title {
-  color: red;
-}
-
-.site-nav {
-  color: red;
-}
-
-footer {
-  background-color: #000080;
-}
-
-body {
-  background-color: transparent;
-  opacity: 90%;
+  text-align: center;
 }
