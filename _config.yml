@@ -1,5 +1,5 @@
 # Site settings
-title: Center for Healing Arts
+title:
 description: > # this means to ignore newlines until "baseurl:"
   Center for Healing Arts Website.
 baseurl: "" # the subpath of your site, e.g. /blog/

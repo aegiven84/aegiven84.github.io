@@ -21,23 +21,14 @@ Purple: Plum: #540A97
  */
 
 .site-header {
-    border-top: 5px solid #350362;
-    border-bottom: 5px solid #2EBF00;
-    min-height: 46px;
-    background-color: #9963CB;
-    font-family: cursive;
+
 
     // Positioning context for the mobile navigation icon
 
 }
 
 .site-title {
-    font-size: 40px;
-    line-height: 56px;
-    letter-spacing: 0px;
-    margin-bottom: 0;
-    float: left;
-    display: block;
+
     &,
     &:visited {
         color: $grey-color-dark;
@@ -116,9 +107,7 @@ Purple: Plum: #540A97
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid #2EBF00;
-    padding: $spacing-unit 0;
-    background-color: #540A97;
+
 }
 
 .footer-heading {
@@ -189,8 +178,6 @@ Purple: Plum: #540A97
 
 .page-content {
 
-    background-color: white;
-    color: #E19000;
 }
 
 .page-heading {

@@ -19,23 +19,14 @@ Purple: Plum: #540A97
 
 //
 .site-header {
-    border-top: 5px solid #350362;
-    border-bottom: 8px solid #60DF38;
-    min-height: 46px;
-    background-color: #9963CB;
-    font-family: cursive;
+  display: none;
 
     // Positioning context for the mobile navigation icon
 
 }
 
 .site-title {
-    font-size: 40px;
-    line-height: 56px;
-    letter-spacing: 0px;
-    margin-bottom: 0;
-    float: left;
-    display: block;
+
     &,
     &:visited {
         color: $grey-color-dark;
@@ -50,17 +41,22 @@ Purple: Plum: #540A97
 }
 
   .site-footer {
-    border-top: 13px solid #A6A6A6;
-    padding: $spacing-unit 0;
-    background-color: #5F9C4E;
+    display: none;
 }
   
   
 .page-content {
-    background-color: #ECEBE9;
-    color: #A87B2A;
-    font-family: 'Indie Flower', cursive;
-    padding: 20px;
+  background-color: #5F9C4E;
+  color: #350362;
+  font-family: georgia;
+  padding: 20px;
+  margin: 0 auto;
+  
+  /*Gradient*/
+  background: -webkit-linear-gradient(#d8ecf9, #1E7C00); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#d8ecf9, #1E7C00); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#d8ecf9, #1E7C00); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#d8ecf9, #1E7C00); /* Standard syntax */
 }
 
 input {
@@ -86,8 +82,10 @@ select {
 }
 
 h1, h2, h3, h4, h5, h6{
-  color: #F0B03C;
-  text-shadow: #E19000 2px 2px 2px;
+  color: #E19000;
+  text-shadow: #A87B2A 2px 2px 2px;
+  font-family: georgia;
+  display: inline;
 }
 
 
@@ -114,11 +112,21 @@ td {
   color: white;
 }
 
-img {
-  background-image: url('/images/Mom.png');
-  border: solid;
-  border-radius: 50px;
-  margin: 0 auto;
+
+#card {
+  border-radius: 7px;
+  text-align: center;
+  width: 100%;
+}
+
+#slides {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid black 1px;
+  text-align: center;
+  height: 300px;
+  width: 700px;
 }
 
 .postcard {
@@ -133,3 +141,24 @@ img {
   margin: 30px;
 }
 
+#container {
+  width: 100%;
+  background-color: #f1f1f1;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: solid #E19000 2px;
+  border-radius: 10px;
+  box-shadow: black 6px 6px 6px;
+}
+
+#title {
+  text-align: center;
+}
+
+#banner {
+  width: 200px;
+  height: 200px;
+  display: inline;
+  margin-top: -17px;
+  margin-left: -5px;
+}

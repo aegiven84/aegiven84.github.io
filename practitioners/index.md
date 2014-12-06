@@ -1,5 +1,5 @@
 ---
-title: Practitioners
+title: 
 layout: default
 permalink: /_practicioners/
 ---
