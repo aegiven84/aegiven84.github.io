@@ -48,9 +48,8 @@ Purple: Plum: #540A97
 .page-content {
   background-color: #5F9C4E;
   color: #350362;
-  font-family: georgia;
+  font-family: 'Open Sans', sans-serif;
   padding: 20px;
-  margin: 0 auto;
   
   /*Gradient*/
   background: -webkit-linear-gradient(#d8ecf9, #1E7C00); /* For Safari 5.1 to 6.0 */
@@ -84,8 +83,9 @@ select {
 h1, h2, h3, h4, h5, h6{
   color: #E19000;
   text-shadow: #A87B2A 2px 2px 2px;
-  font-family: georgia;
-  display: inline;
+  font-family: 'Open Sans', sans-serif;
+  display: block;
+  text-align: center;
 }
 
 
@@ -115,18 +115,25 @@ td {
 
 #card {
   border-radius: 7px;
-  text-align: center;
-  width: 100%;
+  height: auto;
+  width: 80%;
+  display: block;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
 }
 
 #slides {
   display: block;
+  margin-top: -183px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 10px;
   border: solid black 1px;
+  border-radius: 7px;
   text-align: center;
-  height: 300px;
-  width: 700px;
+  height: 200px;
+  width: 100%;
 }
 
 .postcard {
@@ -152,6 +159,10 @@ td {
 }
 
 #title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  font-weight: bolder;
+  display: block;
   text-align: center;
 }
 
@@ -160,5 +171,16 @@ td {
   height: 200px;
   display: inline;
   margin-top: -17px;
-  margin-left: -5px;
+  margin-left: -10px;
+  position: relative;
+  z-index: 10;
+}
+
+#address {
+  text-shadow: none;
+  margin-top: -20px;
+}
+
+#mission {
+margin: 10px;
 }
