@@ -127,11 +127,8 @@ td {
 #slides {
   display: block;
   margin-top: -183px;
-  margin-left: auto;
-  margin-right: 10px;
-  border: solid black 1px;
-  border-radius: 7px;
-  text-align: center;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
   height: 200px;
   width: 100%;
 }
@@ -150,12 +147,14 @@ td {
 
 #container {
   width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
   background-color: #f1f1f1;
   margin-top: 30px;
   margin-bottom: 30px;
-  border: solid #E19000 2px;
+  border: solid #9963CB 2px;
   border-radius: 10px;
-  box-shadow: black 6px 6px 6px;
+  box-shadow: #9963CB 0px 0px 50px 5px;
 }
 
 #title {
@@ -183,4 +182,15 @@ td {
 
 #mission {
 margin: 10px;
+}
+
+#clients {
+  display: inline-block;
+  height: 200px;
+  width: auto;
+  float: right;
+}
+
+#services {
+  display: inline-block;
 }
