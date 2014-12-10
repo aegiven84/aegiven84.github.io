@@ -47,10 +47,9 @@ Purple: Plum: #540A97
   
   
 .page-content {
-  background-color: #f1f1f1;
+  background-color: #FFF;
   color: #413839;
   font-family: 'Open Sans', sans-serif;
-  padding: 20px;
 }
 
 input {
@@ -121,7 +120,7 @@ td {
 #slides {
   display: inline-block;
   margin-top: -120px;
-  height: 200px;
+  height: 150px;
   width: 100%;
 }
 
@@ -138,29 +137,21 @@ td {
 }
 
 #container {
-  width: 95%;
+  width: 100%;
   max-width: 1000px;
   margin: 0 auto;
-  background-color: #f1f1f1;
+  background-color: #FFF;  
   margin-top: 50px;
   margin-bottom: 50px;
-    
-  /*Gradient*/
-  background: -webkit-linear-gradient(white, #8CC6A4); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(white, #8CC6A4); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(white, #8CC6A4); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(white, #8CC6A4); /* Standard syntax */
 }
 
 #title {
   font-family: 'Open Sans', sans-serif;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: bolder;
   float: left;
-  margin-left: 20px;
   display: block;
-  text-align: center;
-  color: #333;
+  margin-bottom: 10px;
 }
 
 #banner {
@@ -270,9 +261,16 @@ margin: 10px;
 }
 
 footer {
-  height: 200px;
+  height: 100px;
   width: 100%;
-  line-height: 350px;
+  line-height: 250px;
+  font-size: 12px;
+     
+  /*Gradient*/
+  background: -webkit-linear-gradient(#FFF, #8CC6A4); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#FFF, #8CC6A4); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#FFF, #8CC6A4); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#FFF, #8CC6A4); /* Standard syntax */;
 }
 
 #footP1 {
