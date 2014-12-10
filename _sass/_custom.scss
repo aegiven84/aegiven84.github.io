@@ -5,6 +5,7 @@ Green: Jade: #2EBF00
           Light: #60DF38
           Lightest: #82DF64
           Card: #5F9C4E
+          SeaFoam: #8CC6A4
 Yellow: Mustard: #E19000
         PouPon: #A87B2A
         Brown: #925E00
@@ -46,16 +47,10 @@ Purple: Plum: #540A97
   
   
 .page-content {
-  background-color: #5F9C4E;
+  background-color: #f1f1f1;
   color: #413839;
   font-family: 'Open Sans', sans-serif;
   padding: 20px;
-  
-  /*Gradient*/
-  background: -webkit-linear-gradient(white, #5F9C4E); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(white, #5F9C4E); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(white, #5F9C4E); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(white, #5F9C4E); /* Standard syntax */
 }
 
 input {
@@ -81,8 +76,7 @@ select {
 }
 
 h1, h2, h3, h4, h5, h6{
-  color: #E19000;
-  text-shadow: #A87B2A 2px 2px 2px;
+  color: #333;
   font-family: 'Open Sans', sans-serif;
   display: block;
   text-align: center;
@@ -125,10 +119,8 @@ td {
 }
 
 #slides {
-  display: block;
-  margin-top: -181px;
-  border-top-left-radius: 7px;
-  border-top-right-radius: 7px;
+  display: inline-block;
+  margin-top: -120px;
   height: 200px;
   width: 100%;
 }
@@ -152,32 +144,38 @@ td {
   background-color: #f1f1f1;
   margin-top: 50px;
   margin-bottom: 50px;
-  border: solid #FFBB33 3px;
-  border-radius: 10px;
-  box-shadow: #333333 0px 0px 20px 5px;
+    
+  /*Gradient*/
+  background: -webkit-linear-gradient(white, #8CC6A4); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(white, #8CC6A4); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(white, #8CC6A4); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(white, #8CC6A4); /* Standard syntax */
 }
 
 #title {
   font-family: 'Open Sans', sans-serif;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: bolder;
+  float: left;
+  margin-left: 20px;
   display: block;
   text-align: center;
+  color: #333;
 }
 
 #banner {
   width: 200px;
-  height: 200px;
+  height: 170px;
   display: inline;
-  margin-top: -19px;
-  margin-left: -11px;
+  margin-top: -14px;
+  margin-left: -7px;
   position: relative;
   z-index: 10;
 }
 
 #address {
   text-shadow: none;
-  margin-top: -20px;
+  margin-top: 0px;
 }
 
 #mission {
@@ -195,4 +193,94 @@ margin: 10px;
 
 #services {
   display: inline-block;
+}
+
+//Navigation bar
+#header { 
+  float: left;
+	width: 100%; 
+  margin-left: -30px;
+	height: 150px; 
+} 
+#nav {  
+	width: 100%; 
+	background-color: #8CC6A4; 
+	font-family: 'Open Sans', sans-serif; 
+	float: left; 
+}
+#nav li { 
+	list-style: none; 
+	float: left; 
+	width: 120px;
+	height: 30px; 
+  line-height: 30px; 
+	text-align: center;
+} 
+#nav li a { 
+	color: white; 
+	text-decoration: none; 
+	display: block; 
+} 
+#nav li a:hover { 
+	background-color: #066; 
+} 
+#home .home a, #home .home a:hover,
+#tutorials .tutorials a, #tutorials .tutorials a:hover,
+#about .about a, #about .about a:hover,
+#contact .contact a, #contact .contact a:hover,
+#news .news a, #news .news a:hover {
+ 	background-color: #FFF; 
+	color: #000;
+	cursor: default;  
+} 		
+#nav li ul { 
+	position: absolute;  
+	display: none; 
+} 
+#nav li:hover ul { 
+	display: block; 
+} 
+#nav li ul li { 
+	float: none; 
+	display: inline; 
+}
+#nav li ul li a { 
+	width: 218px; 
+	position: relative; 
+	border-left: 1px solid black; 
+	border-right: 1px solid black; 
+	border-bottom: 1px solid black; 
+	background: white; 
+	color: #8CC6A4; 
+}
+#nav li ul li a:hover { 
+	background: #066; 
+	color: #000; 
+}
+
+#content {
+  display: inline-block;
+  width: 80%;
+  font-size: 12px;
+}
+
+#leftBar {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  height: 200px;
+  width: 100%;
+  line-height: 350px;
+}
+
+#footP1 {
+  display: inline;
+  float: left;
+}
+
+#footP2 {
+  display: inline;
+  float: right;
 }
