@@ -1,7 +1,7 @@
 ---
 title: 
 layout: default
-permalink: /_contactUs/
+permalink: /contactUs/index.md
 ---
 
 
@@ -35,5 +35,3 @@ permalink: /_contactUs/
 </fieldset>
 </form>
 </html><br>
-
-<img src="/images/502card.jpg">
