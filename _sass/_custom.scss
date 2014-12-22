@@ -238,7 +238,7 @@ margin: 10px;
 } 		
 #nav li ul { 
 	position: absolute;  
-	display: none; 
+	display: none;
 } 
 #nav li:hover ul { 
 	display: block; 
@@ -261,6 +261,16 @@ margin: 10px;
 	background: #8CC6A4; 
 	color: #FFF; 
 }
+
+#services {
+  margin-left: 0px;
+}
+
+#practitioners {
+  
+}
+
+//End Navbar
 
 #content {
   display: inline-block;
