@@ -17,137 +17,26 @@ Purple: Plum: #540A97
         Light: #873DCB
         Lightest: #9963CB
 */
-
-//
-.site-header {
-  display: none;
-
-    // Positioning context for the mobile navigation icon
-
-}
-
-.site-title {
-
-    &,
-    &:visited {
-        color: $grey-color-dark;
-    }
-}
-
-.site-nav {
-    display: inline-block;
-    float: right;
-    line-height: 56px;
-    font-size: 16px;
-}
-
-  .site-footer {
-    display: none;
-}
   
-  
+//Background
 .page-content {
-  background-color: #FFF;
+  background-image: url('/images/brickwall.png');
   color: #413839;
   font-family: 'Open Sans', sans-serif;
   padding: 10px;
 }
 
-#page {
-  height: 1000px;
-  width: 100%;
-  background-image: url('/images/brickwall.png'); 
-  padding: 20px;
-  margin-left: -20px;
-}
-
-input {
-  display: block;
-}
-
-fieldset {
-  margin-top: 30px;
-  width: 95%;
-  background-color: white;
-  box-shadow: gray 14px 14px 2px;
-  margin: 0 auto;
-}
-
-select {
-  display: block;
-}
-
-#contact {
-  margin-top: 30px;
-  display: inline-block;
-  color: black;
-}
-
-h1, h2, h3, h4, h5, h6{
-  color: #333;
+//The top header ('Center for Healing Arts')
+#title {
   font-family: 'Open Sans', sans-serif;
-  display: block;
-  text-align: left;
+  line-height: 10px;
   text-shadow: 1px 1px grey;
-  margin-top: 20px;
-}
-
-
-table {
-  margin: 0 auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  width: 0 auto;
-}
-
-.round td {
-  height: 200px;
-  width: 200px;
-  border-radius: 200px;
   text-align: center;
+  margin-left: -350px;
+  position: relative;
 }
 
-td {
-  height: 200px;
-  width: 200px;
-  background-color: lightgrey;
-  border: solid 15px;
-  border-color: white;
-  color: white;
-}
-
-
-#card {
-  border-radius: 7px;
-  height: auto;
-  width: 80%;
-  display: block;
-  margin-top: 30px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 10px;
-}
-
-#slides {
-  display: inline-block;
-  margin-top: -120px;
-  height: 150px;
-  width: 100%;
-  box-shadow: 0px 0px 2px 1px grey;
-}
-
-.postcard {
-  float: right;
-  text-align: right;
-  font-size: 16px;
-}
-
-#video {
-  float: right;
-  margin: 0 auto;
-  margin: 30px;
-}
-
+//The main box holding all the content
 #container {
   width: 100%;
   max-width: 800px;
@@ -158,46 +47,7 @@ td {
   box-shadow: 0px 0px 15px 5px grey;
 }
 
-#mainTitle {
-  font-family: 'Open Sans', sans-serif;
-  line-height: 10px;
-  text-shadow: 1px 1px grey;
-  position: relative;
-}
-
-#banner {
-  width: 200px;
-  height: 170px;
-  display: inline;
-  margin-top: -14px;
-  margin-left: -7px;
-  position: relative;
-  z-index: 10;
-}
-
-#address {
-  text-shadow: none;
-  margin-top: 0px;
-}
-
-#mission {
-margin: 10px;
-}
-
-#clients {
-  display: inline-block;
-  height: 200px;
-  width: auto;
-  float: right;
-  margin-right: 20px;
-  margin-top: 30px;
-}
-
-#services {
-  display: inline-block;
-}
-
-//Navigation bar
+//Navigation bar ---------------------------------------->
 #header { 
   float: left;
 	width: 100%; 
@@ -218,7 +68,8 @@ margin: 10px;
   line-height: 30px; 
 	text-align: center;
   font-size: 14px;
-} 
+}
+
 #nav li a { 
 	color: white; 
 	text-decoration: none; 
@@ -262,27 +113,55 @@ margin: 10px;
 	color: #DDEEE4; 
 }
 
-#services {
-  margin-left: 0px;
+#practitioners ul {
+  margin-left: 15px;
+}
+//End Navbar ------------------------------------------------>
+
+//Main Pictures below the dropdown menus
+#slides {
+  display: inline-block;
+  margin-top: -120px;
+  height: 150px;
+  width: 100%;
+  box-shadow: 0px 0px 2px 1px grey;
 }
 
-#practitioners {
-  
+//Left column where the 'Website under construction' image is
+#leftBar {
+  float: left;
+  width: 20%;
 }
 
-//End Navbar
+//Website under construction image
+#banner {
+  width: 200px;
+  height: 170px;
+  display: inline;
+  margin-top: -14px;
+  margin-left: -7px;
+  position: relative;
+  z-index: 10;
+}
 
+//Header Styles
+h1, h2, h3, h4, h5, h6{
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  display: block;
+  text-align: left;
+  text-shadow: 1px 1px grey;
+  margin-top: 20px;
+}
+
+//The words and the paragraphs
 #content {
   display: inline-block;
   width: 80%;
   font-size: 14px;
 }
 
-#leftBar {
-  float: left;
-  width: 20%;
-}
-
+//The Footer
 footer {
   height: 100px;
   width: 100%;
@@ -296,14 +175,22 @@ footer {
   background: linear-gradient(#FFF, #8CC6A4); /* Standard syntax */;
 }
 
+.site-footer {
+  display: none;
+}
+
+//Left footer (Center for healing arts)
 #footP1 {
   display: inline;
   float: left;
   font-size: 14px;
+  text-shadow: .5px .5px grey;
 }
 
+//Right Footer (Address)
 #footP2 {
   display: inline;
   float: right;
   font-size: 14px;
+  text-shadow: .5px .5px grey;
 }
