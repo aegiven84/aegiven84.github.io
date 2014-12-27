@@ -132,8 +132,16 @@ Purple: Plum: #540A97
 //Left column where the 'Website under construction' image is
 #leftBar {
   float: left;
-  width: 20%;
+  width: 25%;
   height: 400px;
+}
+
+//Profile pictures of people
+#profilePic {
+  max-width: 90%;
+  margin: 0px 10px 0px 10px;
+  margin-top: 30px;
+  border: solid 1px #8CC6A4;
 }
 
 //Website under construction image
@@ -157,10 +165,16 @@ h1, h2, h3, h4, h5, h6{
   margin-top: 20px;
 }
 
+//Strong style
+strong {
+  font-weight: bolder;
+  font-size: 18px;
+}
+
 //The words and the paragraphs
 #content {
   display: inline-block;
-  width: 80%;
+  width: 75%;
   font-size: 14px;
 }
 
@@ -198,7 +212,13 @@ footer {
   text-shadow: .5px .5px grey;
 }
 
-strong {
-  font-weight: bolder;
-  font-size: 18px;
+#contact h2, h3{
+  text-align: center;
+  background-image: url('/images/eight_horns.png');
+}
+
+#gmap_canvas {
+  float: right;
+  height: 300px;
+  widows: 300px;
 }
