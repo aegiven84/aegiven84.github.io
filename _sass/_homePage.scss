@@ -30,6 +30,7 @@ Purple: Plum: #540A97
 //The top header ('Center for Healing Arts')
 #title {
   font-family: 'Open Sans', sans-serif;
+  color: #5F9C4E;
   line-height: 10px;
   text-shadow: 1px 1px grey;
   text-align: center;
@@ -37,11 +38,18 @@ Purple: Plum: #540A97
   position: relative;
 }
 
+#subTitle {
+  font-family: 'Open Sans', sans-serif;
+  color: #5F9C4E;
+  margin-left: -400px;
+  text-align: center;
+}
+
 //The main box holding all the content
 #container {
   width: 100%;
-  max-width: 800px;
-  min-height: 500px;
+  max-width: 1000px;
+  min-height: 700px;
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -159,7 +167,7 @@ Purple: Plum: #540A97
 
 //Header Styles
 h1, h2, h3, h4, h5, h6{
-  color: #333;
+  color: #5F9C4E;
   font-family: 'Open Sans', sans-serif;
   display: block;
   text-align: left;
