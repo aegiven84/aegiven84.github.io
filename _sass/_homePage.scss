@@ -31,25 +31,23 @@ Purple: Plum: #540A97
 #title {
   font-family: 'Open Sans', sans-serif;
   color: #5F9C4E;
-  line-height: 10px;
   text-shadow: 1px 1px grey;
-  text-align: center;
-  margin-left: -350px;
-  position: relative;
+  padding-top: 40px;
+  padding-bottom: -150px;
+  margin-left: 5%;
 }
 
 #subTitle {
   font-family: 'Open Sans', sans-serif;
-  color: #5F9C4E;
-  margin-left: -400px;
-  text-align: center;
+  margin-left: 7%;
+  margin-top: -20px;
+  padding-bottom: 20px;
 }
 
 //The main box holding all the content
 #container {
   width: 100%;
   max-width: 1000px;
-  min-height: 700px;
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -132,18 +130,20 @@ Purple: Plum: #540A97
 
 //Main Pictures below the dropdown menus
 #slides {
-  display: inline-block;
-  margin-top: -120px;
+  margin-top: -145px;
+  float: right;
   height: 150px;
-  width: 100%;
-  box-shadow: 0px 0px 2px 1px grey;
+  width: 45%;
 }
 
 //Left column where the 'Website under construction' image is
 #leftBar {
-  float: left;
-  width: 25%;
+  float: right;
+  width: 28%;
   height: 400px;
+  color: #5F9C4E;
+  font-size: 12px;
+  padding: 5px;
 }
 
 //Profile pictures of people
@@ -184,15 +184,15 @@ strong {
 //The words and the paragraphs
 #content {
   display: inline-block;
-  width: 75%;
+  width: 70%;
   font-size: 14px;
+  margin-left: 5px;
 }
 
 //The Footer
 footer {
-  height: 100px;
+  height: 150px;
   width: 100%;
-  line-height: 250px;
   font-size: 12px;
      
   /*Gradient*/
@@ -204,22 +204,6 @@ footer {
 
 .site-footer {
   display: none;
-}
-
-//Left footer (Center for healing arts)
-#footP1 {
-  display: inline;
-  float: left;
-  font-size: 14px;
-  text-shadow: .5px .5px grey;
-}
-
-//Right Footer (Address)
-#footP2 {
-  display: inline;
-  float: right;
-  font-size: 14px;
-  text-shadow: .5px .5px grey;
 }
 
 #contact h2{
