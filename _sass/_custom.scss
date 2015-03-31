@@ -1,0 +1,215 @@
+/*
+Green: Jade: #2EBF00
+          Olive: #3E8F24
+          Dark Jade #1E7C00
+          Light: #60DF38
+          Lightest: #82DF64
+          Card: #5F9C4E
+          SeaFoam: #8CC6A4
+Yellow: Mustard: #E19000
+        PouPon: #A87B2A
+        Brown: #925E00
+        Light: #F0B03C
+        Lightest: #F0C16C
+Purple: Plum: #540A97
+        Grape: #4C2272
+        Deep: #350362
+        Light: #873DCB
+        Lightest: #9963CB
+*/
+  
+//Background
+.page-content {
+  background-image: url('/images/brickwall.png');
+  color: #413839;
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px;
+  min-height: 900px;
+}
+
+//The top header ('Center for Healing Arts')
+#title {
+  font-family: 'Open Sans', sans-serif;
+  color: #5F9C4E;
+  text-shadow: 1px 1px grey;
+  padding-top: 40px;
+  padding-bottom: -150px;
+  margin-left: 5%;
+}
+
+#subTitle {
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 7%;
+  margin-top: -20px;
+  padding-bottom: 20px;
+}
+
+//The main box holding all the content
+#container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #FFF;
+  box-shadow: 0px 0px 15px 5px grey;
+}
+
+//Navigation bar ---------------------------------------->
+#header { 
+  float: left;
+	width: 100%; 
+  margin-left: -30px;
+	height: 150px;
+} 
+#nav {  
+	width: 100%; 
+	background-color: #8CC6A4; 
+	font-family: 'Open Sans', sans-serif; 
+	float: left;
+}
+#nav li { 
+	list-style: none; 
+	float: left; 
+	width: 120px;
+	height: 30px; 
+  line-height: 30px; 
+	text-align: center;
+  font-size: 14px;
+}
+
+#nav li a { 
+	color: white; 
+	text-decoration: none; 
+	display: block; 
+} 
+#nav li a:hover { 
+	background-color: #8CC6A4; 
+} 
+#home .home a, #home .home a:hover,
+#tutorials .tutorials a, #tutorials .tutorials a:hover,
+#about .about a, #about .about a:hover,
+#contact .contact a, #contact .contact a:hover,
+#news .news a, #news .news a:hover {
+ 	background-color: #FFF; 
+	color: #000;
+	cursor: default;  
+} 		
+#nav li ul { 
+	position: absolute;  
+	display: none;
+  z-index: 2;
+} 
+#nav li:hover ul { 
+	display: block; 
+} 
+#nav li ul li { 
+	float: none; 
+	display: inline;
+  z-index: 2;
+}
+#nav li ul li a { 
+	width: auto;
+  min-width: 150px;
+	position: relative; 
+	border-left: 1px solid #8CC6A4; 
+	border-right: 1px solid #8CC6A4; 
+	border-bottom: 1px solid #8CC6A4; 
+	background: #F1F8F4; 
+	color: black; 
+}
+#nav li ul li a:hover { 
+	background: #8CC6A4; 
+	color: #FFF; 
+}
+
+#practitioners ul {
+  margin-left: 15px;
+}
+//End Navbar ------------------------------------------------>
+
+//Main Pictures beside title
+#slides {
+  margin-top: -145px;
+  float: right;
+  height: 150px;
+  width: 45%;
+}
+
+//Left column where the 'Website under construction' image is
+#leftBar {
+  display: inline-block;
+  float: right;
+  width: 28%;
+  height: 400px;
+  color: #5F9C4E;
+  font-size: 12px;
+  padding: 5px;
+  margin-top: -100px;
+}
+
+//Profile pictures of people
+#profilePic {
+  max-width: 90%;
+  margin: 0px 10px 0px 10px;
+  margin-top: 30px;
+  border: solid 1px #8CC6A4;
+}
+
+//Header Styles
+h1, h2, h3, h4, h5, h6{
+  color: #5F9C4E;
+  font-family: 'Open Sans', sans-serif;
+  display: block;
+  text-align: left;
+  text-shadow: 1px 1px grey;
+  margin-top: 20px;
+}
+
+//Strong style
+strong {
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+//The words and the paragraphs
+#content {
+  display: inline-block;
+  width: 70%;
+  font-size: 14px;
+  margin-left: 5px;
+  margin-top: -100px;
+}
+
+//The Footer
+footer {
+  height: 150px;
+  width: 100%;
+  font-size: 12px;
+     
+  /*Gradient*/
+  background: -webkit-linear-gradient(#FFF, #8CC6A4); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#FFF, #8CC6A4); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#FFF, #8CC6A4); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#FFF, #8CC6A4); /* Standard syntax */;
+}
+
+.site-footer {
+  display: none;
+}
+
+#contact h2{
+  text-align: center;
+}
+
+#gmap_canvas {
+  float: right;
+  height: 300px;
+  widows: 300px;
+}
+
+#emphasis {
+  font-style: italic;
+  text-decoration: underline;
+  color: blue;
+}
